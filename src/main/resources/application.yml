@@ -1,0 +1,15 @@
+spring:
+  redis:
+    port: 6379
+    host: 172.16.185.135
+
+demo:
+  activemq:
+    broker:
+      url: tcp://172.16.185.135:61616
+      username: admin
+      password: admin
+    queue: demo-queue
+
+server:
+  port: 80
